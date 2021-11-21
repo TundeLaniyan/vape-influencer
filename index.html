@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./css/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+<body>
+    <header class="header">
+        <img src="./images/Logo.svg" alt="" class="logo"/>
+        <div class="navigate-container desktop">
+            <a href="#" class="navigate">About us</a>
+            <a href="#" class="navigate">Creators</a>
+            <a href="#" class="navigate">How it works</a>
+            <a href="#" class="navigate">Learn more <span style="font-size: .75rem;"> &#x25BC;</span></a>
+            <a href="#" class="navigate">Log in</a>
+            <a href="#" class="navigate btn">Start earning now!</a>
+        </div>
+        <!-- <h1 class="header">Vape Influencer</h1> -->
+        <div class="topnav">
+            <a href="#" class="active"></a>
+            <!-- Navigation links (hidden by default) -->
+            <div id="myLinks">
+              <a href="#">About us</a>
+              <a href="#">Creators</a>
+              <a href="#">How it works</a>
+              <a href="#">Learn more <span style="font-size: .75rem;"> &#x25BC;</span></a>
+              <a href="#">Log in</a>
+              <a href="#">Start earning now!</a>
+            </div>
+            <!-- "Hamburger menu" / "Bar icon" to toggle the navigation links -->
+            <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+              <i class="fa fa-bars"></i>
+            </a>
+          </div>
+    </header>
+    <picture class="banner">
+        <source media="(max-width: 37.5em)" srcset="./images/Header_Home_Mobile.jpg">
+        <img src="./images/Header_Home_Desktop.jpg" alt="" class="banner">
+      </picture>
+    <content class="content">
+        <div class="img-text">
+            <div>
+                <span class="blue">Publish</span>
+                <span class="orange">vape</span>
+            </div>
+            <div>
+                <span class="blue">content and</span>
+            </div>
+            <div>
+                <span class="blue">get</span>
+                <span class="orange">paid</span>
+            </div>
+            <img src="./images/message_us.png" alt="" class="message-icon">
+        </div>
+        <div class="text">Want to earn money for creating killer killer vape social content? Vape Influencer is for you!</div>
+        <div class="text">Start earning by showcasing your creativity. sign up today to get access to fast and simple tasks today!</div>
+        <div class="btn-container">
+            <button class="btn">Start Earning!</button>
+            <button class="btn btn--outline">More info</button>
+        </div>
+    </content>
+    <div class="text-content">
+        <div class="text-content__background">do you vape ?</div>
+        <div class="text-content__front">make money by completing tasks</div>
+    </div>
+    <!-- Slideshow container -->
+<div class="slideshow-container">
+
+    <!-- Full-width images with number and caption text -->
+    <div class="mySlides fade">
+      <img src="./images/image.png" style="width:100%">
+    </div>
+  
+    <div class="mySlides fade">
+      <img src="./images/rsz_blue-e-cig-review-2.jpg" style="width:100%">
+    </div>
+  
+    <div class="mySlides fade">
+      <img src="./images/blue-smoke-on-black-background.jpg" style="width:100%">
+    </div>
+  
+  </div>
+  <br>
+  
+  <!-- The dots/circles -->
+  <div style="text-align:center">
+    <span class="dot" onclick="currentSlide(1)"></span>
+    <span class="dot" onclick="currentSlide(2)"></span>
+    <span class="dot" onclick="currentSlide(3)"></span>
+  </div>
+
+  <div class="text-content">
+    <div class="text-content__background">trusted</div>
+    <div class="text-content__front">by the top brands</div>
+</div>
+
+    <script src="./index.js"></script>
+</body>
+</html>
